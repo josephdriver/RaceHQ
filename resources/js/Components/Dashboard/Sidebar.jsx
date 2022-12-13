@@ -18,7 +18,11 @@ export default function Sidebar() {
                     href={route("home")}
                     target="_blank"
                 >
-                    {/* <img src="/img/logo-ct.png" className="navbar-brand-img h-100" alt="main_logo" /> */}
+                    <img
+                        src="/img/logo-ct.png"
+                        className="navbar-brand-img h-100"
+                        alt="main_logo"
+                    />
                     <span className="ms-1 font-weight-bold"> RaceHQ TEST</span>
                 </Link>
             </div>
